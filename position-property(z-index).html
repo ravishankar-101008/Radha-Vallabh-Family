@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>z-index</title>
+    <style>
+        .container{
+            position: relative;
+        }
+        .box1, .box2{
+            position: absolute;
+            border: 3px solid black;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            font-size: 25px;
+        }
+        .box1{
+            background-color: aquamarine;
+            left: 10px;
+            top: 60px;
+            z-index: 2;
+        
+        }
+        .box2{
+            background-color: aliceblue;
+            left: 60px;
+            top: 20px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">RADHE </div>
+        <div class="box2">SHYAM</div>
+    </div>
+</body>
+</html>

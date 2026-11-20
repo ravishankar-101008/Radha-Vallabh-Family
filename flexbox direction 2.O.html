@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flexbox Direction</title>
+
+    <style>
+    .box {
+            height: 100px;
+            width: 100px;
+            border: 3px solid red;
+            margin-right: 5px;
+        }
+
+        #heading {
+            margin-left: 50px;
+        }
+
+        #container {
+            height: 150px;
+            width: 200px;
+            padding: 10px;
+            margin: 20px;
+            border: 3px solid black;
+
+            display: flex;
+            flex-direction: row-reverse;
+            background-color: aqua;
+        }
+
+        #box1 {
+            background-color: aqua;
+        }
+
+        #box2 {
+            background-color: blueviolet;
+        }
+
+        #box3 {
+            background-color: yellow;
+        }
+
+        #box4 {
+            background-color: rgb(27, 99, 181);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 id="heading">Flex Container</h1>
+
+    <div id="container">
+        <div id="box1" class="box">Flex Item 1</div>
+        <div id="box2" class="box">Flex Item 2</div>
+        <div id="box3" class="box">Flex Item 3</div>
+        <div id="box4" class="box">Flex Item 4</div>
+    </div>
+
+</body>
+</html>
